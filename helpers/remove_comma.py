@@ -5,7 +5,7 @@ def remove_at(i: int, s: str) -> str:
     return s[:i] + s[i + 1:]
 
 
-with open('data/stock_company_info.csv', 'r') as infile, open('data/dataset.csv', 'w') as outfile:
+with open('../data/stock_company_info.csv', 'r') as infile, open('../data/dataset.csv', 'w') as outfile:
     for row in infile:
         t_row = row
         ticker = ""

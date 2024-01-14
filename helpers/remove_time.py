@@ -1,6 +1,6 @@
 import csv
 
-with open('data/cnbc_headlines.csv', 'r', encoding="utf8") as infile, open('data/cnbc_headlines_edit.csv', 'w') as outfile:
+with open('../data/cnbc_headlines.csv', 'r', encoding="utf8") as infile, open('../data/cnbc_headlines_edit.csv', 'w') as outfile:
     reader = csv.reader(infile)
 
     for row in reader:
